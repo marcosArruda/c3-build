@@ -7,6 +7,19 @@ import (
 
 func CmdDeploy(c *cli.Context) {
 
+	/*
+		WHAT I WANT TO DO:
+		wasdown
+		cd /home/marcos/prog-apps/workspaces/workspace-tivit/C3-Registradora
+		mvn clean install -U -DskipTests
+		cd c3
+		./c3_dist.sh
+		cd target/
+		./c3-*-installer.sh -- -u
+		wasup
+		sleep 1
+	*/
+
 	//USANDO CORES
 	// Print with default helper functions
 	color.Cyan("Prints text in cyan.")
